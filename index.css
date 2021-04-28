@@ -1,3 +1,12 @@
 p {
 	color: red;
+	justify-content: center;
+	display: flex;
+}
+
+#cabecera {
+	background-color: pink;
+	font-size: 15px;
+	display: flex;
+	justify-content: center;
 }
