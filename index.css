@@ -1,16 +1,67 @@
-body {
+* {
+	margin: 0;
+	padding: 0;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
-	color: red;
-	justify-content: center;
-	display: flex;
+body {
+	background-color: black;
 }
 
-#cabecera {
-	background-color: pink;
-	font-size: 15px;
+header {
 	display: flex;
 	justify-content: center;
+	height: 500px;
+	margin-bottom: 70px;
+}
+
+header div img {
+	width: 100vw;
+	height: 450px;
+}
+
+main {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+.card {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 80px;
+	align-items: center;
+}
+
+main div img {
+	width: 670px;
+	height: 400px;
+}
+
+h1 {
+	text-align: center;
+	line-height: 1.5;
+	color: white;
+}
+
+.data {
+	text-align: center;
+	font-size: 20px;
+	line-height: 1.5;
+	color: white;
+	margin-left: 50px;
+}
+
+.sCard img {
+	margin-left: 50px;
+}
+
+footer {
+	background-color: lightgreen;
+}
+
+.fab {
+	font-size: 100px;
+	padding-left: 15px;
 }
