@@ -11,13 +11,16 @@ body {
 header {
 	display: flex;
 	justify-content: center;
-	height: 500px;
+	height: 700px;
 	margin-bottom: 70px;
+}
+
+header div {
+	overflow: hidden;
 }
 
 header div img {
 	width: 100vw;
-	height: 450px;
 }
 
 main {
@@ -37,6 +40,8 @@ main {
 main div img {
 	width: 670px;
 	height: 400px;
+	box-shadow: 0px 0px 20px 2px #737373;
+	border-radius: 15px;
 }
 
 h1 {
@@ -57,11 +62,18 @@ h1 {
 	margin-left: 50px;
 }
 
-footer {
-	background-color: lightgreen;
+nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
 }
 
 .fab {
 	font-size: 100px;
 	padding-left: 15px;
+	color: red;
+}
+
+.fab:hover {
+	color: grey;
 }
