@@ -79,7 +79,6 @@ nav {
 
 .fab {
 	font-size: 100px;
-	margin-left: 15px;
 	color: red;
 }
 
@@ -116,14 +115,14 @@ nav {
 	}
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 769px) {
 	header {
 		height: 450px;
 		margin-bottom: 100px;
 	}
 
 	header div img {
-		height: 400px;
+		height: 75%;
 	}
 
 	.profileOfTony {
@@ -139,22 +138,23 @@ nav {
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 425px) {
 	header {
-		height: 350px;
+		height: 250px;
+		margin-bottom: 50px;
 	}
 
 	header div img {
-		height: 300px;
+		height: 80%;
 	}
 
 	.profileOfTony {
-		width: 400px;
-		height: 250px;
+		width: 300px;
+		height: 200px;
 	}
 
 	.data {
-		font-size: 15px;
+		font-size: 13px;
 	}
 
 	.information {
@@ -162,6 +162,34 @@ nav {
 	}
 
 	.fab {
-		font-size: 75px;
+		font-size: 65px;
+	}
+}
+
+@media (max-width: 424px) and (min-width: 320px) {
+	header {
+		height: 250px;
+		margin-bottom: 50px;
+	}
+
+	header div img {
+		height: 70%;
+	}
+
+	.profileOfTony {
+		width: 250px;
+		height: 150px;
+	}
+
+	.data {
+		font-size: 13px;
+	}
+
+	.information {
+		margin-bottom: 10px;
+	}
+
+	.fab {
+		font-size: 65px;
 	}
 }
